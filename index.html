@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<!--    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap" rel="stylesheet">-->
-<!--    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.6.3/css/font-awesome.min.css">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">-->
 
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -31,7 +28,6 @@
 </head>
 
 <body>
- <!-- <img src = "images/graphics/smalltreesbg.png"/> -->
 
 <!--end navbar markup-->
 <div class="container-fluid">
@@ -68,101 +64,7 @@
                 </button>
             </div>
         </div>
-        <div id="header-below">
-            <div id="countdown"> 
-                <!-- Display the countdown timer in an element -->
-               <!-- <h1 style="padding-top: 5%">Time Remaining</h1>  -->
-             <div id="clockdiv">
-                    <div class="timer">
-                        <div class="days time"></div>
-                    </div>
-                    <div class="timer">
-                        <div class="hours time"></div>
-                    </div>
-                    <div class="timer">
-                        <div class="minutes time"></div>
-                    </div>
-                    <div class="timer">
-                        <div class="seconds time"></div>
-                    </div>
-                </div>
-                <!-- <script>
-                    function getTimeRemaining(endtime) {
-                        var t = Date.parse(endtime) - Date.parse(new Date());
-                        var seconds = Math.floor((t / 1000) % 60);
-                        var minutes = Math.floor((t / 1000 / 60) % 60);
-                        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-                        var days = Math.floor(t / (1000 * 60 * 60 * 24));
-                        return {
-                            'total': t,
-                            'days': days,
-                            'hours': hours,
-                            'minutes': minutes,
-                            'seconds': seconds
-                        };
-                    }
-
-                    function initializeClock(id, endtime) {
-                        var clock = document.getElementById(id);
-                        var timer = clock.querySelector('.timer');
-
-                        var daysSpan = clock.querySelector('.days');
-                        var hoursSpan = clock.querySelector('.hours');
-                        var minutesSpan = clock.querySelector('.minutes');
-                        var secondsSpan = clock.querySelector('.seconds');
-
-                        function updateClock() {
-                            var t = getTimeRemaining(endtime);
-                            daysSpan.innerHTML = t.days + " d";
-                            hoursSpan.innerHTML = ('' + t.hours).slice(-2) + " h";
-                            minutesSpan.innerHTML = ('' + t.minutes).slice(-2) + " m";
-                            secondsSpan.innerHTML = ('' + t.seconds).slice(-2) + " s";
-
-                            daysSpan.style.width = "100%";
-                            hoursSpan.style.width = "100%";
-                            minutesSpan.style.width = "100%";
-                            secondsSpan.style.width = "100%";
-                            daysSpan.style.fontSize = "24px";
-                            hoursSpan.style.fontSize = "24px";
-                            minutesSpan.style.fontSize = "24px";
-                            secondsSpan.style.fontSize = "24px";
-
-                            if (t.total <= 0) {
-                                clearInterval(timeinterval);
-                            }
-                        }
-
-                        updateClock();
-                        var timeinterval = setInterval(updateClock, 1000);
-                    }
-
-                    var deadline = new Date("Feb 10, 2023 8:00:00");
-                    initializeClock('clockdiv', deadline);
-                </script> -->
-            </div> 
-                <h1 style="padding-bottom: 40px;">
-                    Event Details
-                </h1>
-                <h4> 
-                    February 10-11, 2024 <br><br>
-                    Saturday-Sunday: Trayes Hall @Douglass Student Center - 100 George St, New Brunswick, NJ 08901 <br><br> </h4>
-                    <h4 style="color: white"> New Jersey's largest all-female, femme, and non-binary hackathon. <br><br>
-                </h4>
-               
-            <div id="app_buttons">
-                <button id="volunteer_button"><a target="_blank" href="http://eepurl.com/hdVNlz">Subscribe to our Newsletter!</a></button>
-                <button id="volunteer_button"><a target="_blank" href= "https://hackhers-2024.devpost.com/">HackHERS 2024 Devpost</a></button>
-                <button id="volunteer_button"><a target="_blank" href= "https://airtable.com/appo8HcRRgQI7uqAv/shrgvzjPQ0vUp7AIr">Events Schedule</a></button>
-                <!-- <button id="volunteer_button"><a target="_blank" href= "https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a></button> -->
-           </div>
-	
-            <div class="list-inline">
-                        <a href="https://www.facebook.com/ruhackhers/" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                        <a href="https://twitter.com/ruhackhers" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        <a href="https://instagram.com/ruhackhers" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                        <a href="https://medium.com/@ruhackhers" target="_blank" class="btn-social btn-outline"><i class="fa fa-medium"></i></a>
-            </div>
-        </div>
+        
 
     </div>
     <div id="main">
@@ -222,45 +124,7 @@
                     <iframe class="airtable-embed" src="https://airtable.com/embed/appo8HcRRgQI7uqAv/shrZ0q74bv68PgiYz?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>  
                  </div>
 
-                <!-- <br><br>
-                <h4>Saturday 02/10</h4> <br>
-                <b>10:15 AM</b>   &nbsp;&nbsp; Doors Open - Check in sponsors<br>
-                <b>11:00 AM - 12:00 PM</b>   &nbsp;&nbsp; Doors Open - Check in participants<br>
-                <b>12:00PM</b>   &nbsp;    Opening Ceremony<br>
-                <b>12:30 PM</b> Hacking Begins <br>
-                <b>12:30 PM - 1:00 PM</b> Team Building + Brainstorming Session<br> 
-                <b>1:00 PM - 2:00 PM</b>  &nbsp;         Lunch<br>
-                <b>2:00 PM - 3:00 PM</b>  Company Event<br>
-                <b>4:00 PM - 5:00 PM</b>   &nbsp;&nbsp;  CreativeX Workshop
-                <br>
-                <b>5:00 PM - 6:00 PM</b>&nbsp;&nbsp;   Workshop
-                <br>
-                <b>6:00 PM - 7:00 PM</b>  &nbsp; Blueprint Workshop
-                <br>
-                <b>7:00 PM - 8:00 PM</b>   Dinner
-                <br>
-                <b>8:00 PM - 9:00 PM</b> &nbsp;&nbsp; iLight MLH Event<br>
-                <b>9:00 PM - 10:00 PM</b> &nbsp; &nbsp; USACS<br>
-                <b>10:00 PM - 11:00 PM</b> &nbsp; &nbsp; Jeopardy<br>
-                <b>11:00 PM - 12:00 AM</b> &nbsp; &nbsp; Doors Close
-                <br>
-                </span>
-                <br><br>
-
-
-            <span style="font-size: 20px">
-                <h4>Sunday 02/11</h4> <br>
                 
-                <b>10:00 AM</b> &nbsp; &nbsp; Doors Open - Breakfast Served<br>
-                <b>11:00 AM - 1:00 PM</b> &nbsp; Last minute prep time for hackhers<br>
-                <b>1:00 PM</b> &nbsp; Deadline for Submission<br>
-                <b>1:00 PM - 2:00 PM</b> &nbsp; Lunch<br>
-                <b>1:00 PM - 4:00 PM</b> &nbsp; Judging (w/ workshops on the side)<br>
-                <b>4:00 PM - 4:30 PM</b> &nbsp; Closing Ceremony<br>
-                <b>5:00 PM</b> &nbsp; Event Ends<br>
-                </span> -->
-               
-
         </div>
        
 
@@ -397,13 +261,7 @@
                             during the hackathon with various tasks. 
                         </div>
                     </li>
-                <!-- </ul>  -->
-                <!-- <div id="faq-right">
             
-                    <div>                                         
-                    <div> if we missed your question, hit us up at <a
-                            href="mailto:rutgers.hackhers@gmail.com">rutgers.hackhers@gmail.com</a></div>
-                </div> -->
             </div>
         </div>
 
@@ -435,48 +293,10 @@
                                 src="images/sponsors/silver/RTC.jpg"></a>
                     </div> 
         </div> 
-<!-- <h3>Package Options </h3> <br>
-<h4>There are three sponsorship levels. All sponsorship payments must be received by December 1, 2021. Payment can be made online or by check (see next page for details).</h4><br>
-<h5>Gold: $1,500</h5> <br>
-• All benefits of silver and bronze with unlimited Mentors, 1 hour long company workshop, and large sized logo on website and shirt plus: <br>
-• Speak at Opening and Closing Ceremony <br>
-• Your company ’s API/Product Demo<br>
-• 30 minute Fireside Chat<br>
-• On-Site Interview Space<br>
-• Your company ’s Pre-Hackathon event<br>
-• Social Media Posts<br><br>
-<h5>Silver: $1,000</h5><br>
-• All benefits of bronze with 4 Mentors and Medium Sized Logo on Website plus:<br>
-• Create your own Prize and Category<br>
-• Host a 30 minute workshop<br>
-• Company Challenge<br>
-• Your company’s small sized logo on shirt<br><br>
-<h5>Bronze: $500</h5><br>
-• 2 Mentors present virtually<br>
-• Donate a Prize in an Existing Category<br>
-• Your company’s own Slack Channel (which serves as our virtual table)<br>
-• Your company’s job/internship posting in HackHERS newsletter<br>
-• Access to Resume and Github Database<br>
-• Your company’s small sized logo on website and t-shirt<br>
-• Acknowledgment during ceremonies<br>
-*We will not be able to accommodate you with any benefits (including challenges) outside of your package.<br>
-*All prizes must be shipped from the sponsor directly to the winners if sponsor chooses to create their own prize category.<br>
-
-<br>
-<br>
-<br> -->
 
             </div>
 
-        <!--&lt;!&ndash; SOCIAL MEDIA &ndash;&gt;
-        <div class="section" id="social_media">
-            <div class="section-title">
-                Recent Instagram Posts
-            </div>
-            &lt;!&ndash; <div class='embedsocial-instagram' data-ref="56fd52ed1acb9c90192514399099b86aed976d0c"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script> &ndash;&gt;
-            <div class='embedsocial-instagram' data-ref="c451e9fac57169d61012ccceb4e65a89311f5910"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
-        </div>-->
-    
+
     
 
     <section id="team">
@@ -631,15 +451,6 @@
 </div>
 
 </div>
-
-<!--&lt;!&ndash; SOCIAL MEDIA &ndash;&gt;
-<div class="section" id="social_media">
-    <div class="section-title">
-        Recent Instagram Posts
-    </div>
-    &lt;!&ndash; <div class='embedsocial-instagram' data-ref="56fd52ed1acb9c90192514399099b86aed976d0c"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script> &ndash;&gt;
-    <div class='embedsocial-instagram' data-ref="c451e9fac57169d61012ccceb4e65a89311f5910"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
-</div>-->
 
 
 
