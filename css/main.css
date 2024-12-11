@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 @-ms-viewport {
@@ -32,7 +30,6 @@ body {
   cursor: url('../images/graphics/magic-wand.png'), pointer; 
 }
 
-
 /*styling navbar*/
 
 .navbar{
@@ -61,94 +58,16 @@ body {
   
 }
 
-
-/* !*styling navbar link position*! */
-/* .navbar-nav > li > a {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #f9f9f9;
-}
-
-.navbar-nav > li > a:hover {
-  background-color: transparent;
-  color: #a3dce9;
-  transition: all .3s ease-in-out;
-} */
-
-/* !*to keep half of navbar links to left and the other half right*! */
-
-/* #navbar-left{
-  float: left;
-}
-#navbar-right{
-  float: right;
-} */
-
-/* .navbar .navbar-collapse {
-  text-align: center;
-} */
-
-/* .nav .navbar-nav{
-  background-color: #f9f9f9;
-  color: #0b0045;
-} */
-
-
-/*navigation bar styling */
-
-/* .navbarMenu{
-  border-radius: 0;
-  height: 80px;
-  margin-bottom: 0;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: lowercase;
-  display: none;
-  text-align: center;
-  padding: 0 7rem 0 8rem;
-  margin: 0 auto;
-
-} */
-
-
-/* .navbar {
-  padding: 16px 16px 8px 16px;
-
-} */
-/* .navbar-bg {
-  background-color: #242230;
-}
-.navbar-toggler {
-  margin: 0;
-  padding: .25rem;
-
-} */
-/* .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-
-}
-.navbar-brand {
-  position: absolute;
-  right: 0px;
-  top: 12px;
-} */
-/* .navbar-nav {
-  margin: 0;
-} */
-/* .navbar-nav .nav-link {
-  border-radius: 0;
-  text-align: center;
-} */
-
+/* have to fix this part  */
 @media screen and (max-width: 575px) {
-  .navbar {
+  /* .navbar {
     padding: 0;
     min-height: 60px;
-  }
+  } */
 }
 @media (min-width: 500px) and (max-width: 956px) {
 
-  .navbar-toggler {
+  /* .navbar-toggler {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -165,11 +84,11 @@ body {
     background-color:  #450a74;
     color: black;
     transition: all .3s ease-in-out;
-  }
+  } */
 
 }
 @media (min-width: 320px) and (max-width: 499px) {
-  .navbar-toggler {
+  /* .navbar-toggler {
     margin-top: 20px;
     background-color: #213355;
     border: 3px solid #213355;
@@ -180,7 +99,7 @@ body {
     background-color: #450a74 ;
     color: #f9f9f9;
     transition: all .3s ease-in-out;
-  }
+  } */
 
 }
 
@@ -192,133 +111,6 @@ body {
     
   }
 }
-
-/* #header {
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 20vh;
-  margin-bottom: 30vh;
-}
-
-#logo {
-  height: 40vh;
-  width: 83vh;
-}
-
-#header-above {
-  text-align: center;
-} */
-
-/* #header-above button {
-  border-radius: 5px;
-  margin: 3px 0px;
-  font-size: 1.2em;
-  text-decoration: none;
-  border: none;
-}
-
-#header-above a {
-  text-decoration: none;
-
-}
-
-#header-below{
-  text-align: center;
-  background-color: rgba(4, 42, 40, 0.8);
-  padding: 30px;
-  width: 80%;
-  margin: auto;
-  border-radius: 50px;
-  margin-top: 20vh;
-  color: white;
-}
-
-#header-below h4{
-  color: #FFF5B5;
-} */
-
-/* #app_buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#app_buttons a{
-  color: black;
-}
-
-.register {
-  margin-top: 30px;
-}
-
-#register_button {
-  background-color: transparent;
-  border: none; /* Remove button border 
-  padding: 0; 
-  pointer-events: auto;
-}
-
-#register_button img {
-  width: 160px;
-  height: 160px;
-}
-
-#register_button a {
-  display: block; /* Make the link a block element to cover the entire button 
-  color: #0C5241;
-  font-weight: bold;
-} */
-
-
-
-
-
-
-/* #header-right img {
-  width: 35vw;
-} */
-
-/* #coming_soon {
-  color: white;
-  font-size: 16px;
-  margin-top: 10px;
-} */
-
-/* #header-right h2 {
-  margin-top: 10px;
-  font-size: 2em;
-  color: #0C5241;
-  margin-right: 10em;
-  margin-left: 10em;
-  overflow: hidden;
-
-
-} */
-
-/* #countdown {
-  display: flex; 
-   justify-content: flex-end;
-  font-size: 40px;
-
-}
-
-#clockdiv {
-  padding-top: 10px;
-  display: flex;
-  justify-content: row;
-  color: #FFF5B5;
-}
-
-.timer {
-  font-size: 50px;
-  display: flex; 
-  justify-content: center; 
-  
-} */
 
 
 
@@ -348,11 +140,11 @@ body {
 
 .section#title {
   display: flex;
-  flex-direction: column;  /* Stack child elements vertically */
-  justify-content: center;  /* Vertically center content */
+  flex-direction: column; 
+  justify-content: center; 
   align-items: flex-end;  /* Align content to the right horizontally */
   width: 100%;  /* Full width */
-  height: 120vh; /* Full viewport height */
+  height: 120vh;
 }
 
 #title-name {
@@ -361,7 +153,7 @@ body {
   font-weight: bold;
   color: #C8D5ED;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 5px rgba(255, 255, 255, 0.4), 0 0 8px rgba(255, 255, 255, 0.4); /* Subtle white glow */
-  margin: 0; /* Remove default margins */
+  margin: 0; 
   align-items: flex-end;
 }
 .dino-fairy{
@@ -370,7 +162,7 @@ body {
 #title-date {
   font-size: 35px;
   color: #9BBDEE;
-  margin: 0; /* Remove default margins */
+  margin: 0; 
   font-weight: 600;
 }
 
@@ -390,58 +182,55 @@ body {
   color: white;
 }
 #title-register:hover {
-  background-color: #8063a1; /* Darker purple on hover */
-  color: #ffc8ea; /* Change text color on hover */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
-  transform: translateY(-2px); /* Slight lift effect */
+  background-color: #8063a1; 
+  color: #ffc8ea; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px); 
 }
 
 #title-register:active {
-  transform: translateY(0); /* Remove lift effect when clicked */
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Slightly reduce shadow */
+  transform: translateY(0); 
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); 
 }
 
-.diano{
-  float: left;
-}
 /* ABOUT section */
 
 .section#about {
   display: flex;
-  justify-content: center;  /* Vertically center content */
-  align-items: flex-end;  /* Align content to the right horizontally */
-  width: 50%;  /* Full width */
-  height: 130vh;  /* Full viewport height */
-  margin-left: auto;  /* Push the section to the right */
-  margin-right: 0;  /* Remove right margin */
+  justify-content: center;  
+  align-items: flex-end;  
+  width: 50%;  
+  height: 130vh;
+  margin-left: auto; 
+  margin-right: 0; 
 }
 
 #about {
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;  /* Align everything inside to the right */
-  text-align: right;  /* Right align text */
+  align-items: flex-end; 
+  text-align: right;  
 }
 
 #about h1 {
-  text-align: right;  /* Ensure the title is right-aligned */
+  text-align: right;  
 }
 
 #about-info {
   display: flex;
-  flex-direction: column;  /* Stack child elements vertically */
+  flex-direction: column; 
   justify-content: center;
   align-items: flex-end;
   font-size: 20px;
   font-weight: 300;
-  text-align: right;  /* Ensure text in #about-info is right-aligned */
+  text-align: right; 
 }
 
 #since-2015 {
-  font-size: 30px; /* Size for the number */
-  font-weight: 600; /* Make the number bold */
-  margin-bottom: 10px; /* Space below the number */
+  font-size: 30px; 
+  font-weight: 600; 
+  margin-bottom: 10px; 
 }
 
 .counter {
@@ -455,25 +244,25 @@ body {
 
 
 .stats-container {
-  display: flex; /* Create a flex container */
-  justify-content: space-between; /* Distribute space between items */
-  align-items: center; /* Center items vertically */
-  width: 100%; /* Ensure it takes up the full width */
-  max-width: 1200px; /* Optional: Set a max width */
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 20px; /* Optional: Padding for spacing */
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; 
   text-align: center;
 }
 
 .stats-column h2 {
-  font-size: 45px; /* Size for the text */
-  color: #9BBDEE; /* Optional: Lighter color for the text */
+  font-size: 45px; 
+  color: #9BBDEE;
   font-weight: 700;
 }
 
 .stats-column p {
-  font-size: 30px; /* Size for the text */
-  color: white; /* Optional: Lighter color for the text */
+  font-size: 30px; 
+  color: white;
 }
 
 /* floating diano */
@@ -518,6 +307,8 @@ body {
   height: 100vh;
 }
 
+/* SCHEDULE section */
+
 .section#schedule{
   height: 100vh;
   text-align: center;
@@ -550,68 +341,6 @@ list-inline > li {
   padding-right: 5px;
 }
 
-
-#schedule .btn {
-  padding: 20px;
-  margin: 20px;
-  background-color:#8191C7;
-  border: 3px  #8191C7;
-  opacity: .95;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 2px 2px  #090909;
-  font-weight: bold;
-  color: black;
-}
-
-#schedule .btn:hover{
-  background-color: black;
-  border-color: black;
-  color: black;
-  transition: all .3s ease-in-out;
-}
-
-#saturday, #sunday{
-  font-size: 24px;
-  color: black;
-  margin-bottom: 50px 0;
-}
-
-.schedule{
-  text-align: center;
-  margin: 25px auto;
-  width: 100%;
-  font-size: 18px;
-  color: black;
-
-
-}
-
-.times{
-  display: inline-block;
-}
-
-.events{
-  display: inline-block;
-}
-
-#change{
-  padding-left: 300px;
-}
-
-.times li{
-  list-style-type: none;
-  text-align: left;
-  display: block;
-}
-
-.events li{
-  color: #E6D2FF;
-  margin-left: 5px;
-  list-style-type: none;
-  text-align: left;
-  display: block;
-}
 
 /* FAQ section */
 .section#faq {
@@ -698,7 +427,6 @@ list-inline > li {
   max-height: 275px;
   padding-bottom: 25px;
   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
-  /*color: #FEFFC4;*/
 }
 
 
@@ -710,109 +438,7 @@ list-inline > li {
 
 }
 
-/* #sponsors {
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  background-color:rgba(4, 42, 40, 0.8);
-  align-self: center;
-  font-weight: 300;
-  font-size: 16px;
-}
-
-#sponsors a {
-  font-weight: bold;
-  color: #a38bbf;
-}
-
-#sponsor-logos {
-  background-color: white;
-  display: flex;
-  padding: 30px 100px;
-  border-radius: 20px;
-  flex-direction: column;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  opacity: 0.9;
-  margin-bottom: 40px;
-} */
-
-
-.purple-rect {
-  align-self: center;
-  height: 5px;
-  background: rgba(177, 156, 217, 0.5);
-  width: 100%;
-}
-
-
-
-
-
-/* organizers
-
-#organizers{
-  background-color: #3e4363;
-  padding-bottom: 30px;
-}
-#organizers .section-title{
-  color: #53e5eb;
-}
-
-/*#organizers h3{
-  text-align: left;
-  margin-bottom: 0;
-  padding-left: 25px;
-  padding-top: 25px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}*/
-
-/* #organizers p{
-  font-size: 20px;
-  font-family: 'Cabin', sans-serif;
-  margin-bottom: 0;
-  font-weight: 400;
-  color: #b6bde0;
-}
-
-.profile-img{
-  opacity: 0.9;
-  width: 100%;
-  padding: 20px;
-  border-radius: 50%;
-}
-
-.team {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 50px;
-  padding: 20px;
-  padding-top: 30px; 
-}
-
-#organizers .team-name{
-  font-size: 18px;
-  font-weight: 300;
-  color: white;
-  opacity: 0.9;
-  font-family: 'Open-Sans', sans-serif;
-}
-
-.person{
-  width: 20%;
-  padding-bottom: 22px;
-
-} */
-
-/*team styling*/
-
+/*team styling - need to fix*/
 
 #team{
   height: 350vh;
@@ -871,14 +497,15 @@ list-inline > li {
   width: 200px;
   border-radius: 20px;
 }
+
 /* map */
 
 iframe {
-  display: block; /* Treat iframe as a block element */
-  margin: 0 auto; /* Center it horizontally */
-  border: 0; /* Remove border */
-  max-width: 80%; /* Limit the width to 80% of the parent container */
-  height: 300px; /* Set a fixed height */
+  display: block; 
+  margin: 0 auto; 
+  border: 0;
+  max-width: 80%; 
+  height: 300px; 
 }
 
 /*footer*/
@@ -928,7 +555,7 @@ iframe {
   color: white;
 }
 
-
+/* adjustments for diff viewport sizes */
 @media (max-width: 1025px) {
   #header {
     display: flex;
