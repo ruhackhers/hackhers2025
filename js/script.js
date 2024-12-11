@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const startCounting = (counter) => {
       const target = +counter.getAttribute("data-target");
       const prefix = counter.getAttribute("data-prefix") || ""; 
-      const speed = 200; 
+      const speed = 50; 
   
       let count = 0;
   

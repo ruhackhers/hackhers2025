@@ -356,6 +356,13 @@ list-inline > li {
   text-align: center;
 }
 
+#faq h4{
+  text-align: center;
+  color: white;
+  font-size: 20px;  
+  padding: 20px;
+}
+
 #faq a {
   font-weight: bold;
   color: white;
@@ -514,9 +521,11 @@ iframe {
   position: relative;
   width: 100%;
   background-color: #0F102F;
-  padding: 15px;
+  padding: 30px;
   overflow: hidden;
   padding-left: 20px;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 #footer p {
