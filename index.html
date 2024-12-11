@@ -6,7 +6,6 @@
     <title>HackHERS 2024</title>
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
@@ -21,130 +20,102 @@
     </script>
 
     <script src="https://use.fontawesome.com/9f7b7f8456.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/logos/text-logo-footer.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@700&family=Montserrat:ital,wght@0,200;1,100&family=Mountains+of+Christmas:wght@400;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!--end navbar markup-->
-<div class="container-fluid">
-<nav class="navbar navbar-expand-sm fixed-top" id="navbar" style="background-color: #0C5241">
-    <div class="navbar-header">
-    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav mr-auto">
+<!--navbar-->
+<div class="navbar-container">
+<nav class="navbar navbar-expand-sm fixed-top" id="navbar">
+        <ul class="navbar-nav">
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#tracks" class="nav-link">Tracks</a></li>
+            <li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
+            <li class="nav-item"><a href="#faq" class="nav-link">Faq</a></li>
             <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
-           <li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
-            <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
             <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
         </ul>
-    </div>
 </nav>
 </div>
-
-
-    <div id="header">
-        <img id="logo" src="images/logos/2024logo.png" >
-        <div id="header-above">
-            <h2 id="hack-date">
-                New Jersey's Largest Women and Non-Binary Centric Hackathon
-            </h2>
-            <div class="register">
-                <button id="register_button">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSclJGaGZZcie1F6qb3eDhJnp0IxG2KXQip-MAYjFnbXApg61Q/viewform">
-                        <img src="images/graphics/diano_register_button.png" style="width: 160px; height: 160px;">
-                    </a>
-                </button>
-            </div>
-        </div>
         
-
-    </div>
+    </div> 
     <div id="main">
+        <!-- TITLE -->
+        <div class="section" id="title">
+            <h1 id="title-name"> HackHERS </h1>
+            <h3 id="title-date"> Feb 8-9th, 2025</h3>
+            <h3 id="title-location"> College Avenue Student Center</h4>
+            <a id="title-register" href="register.html" class="nav-link register-btn">Register</a>
+
+        </div>
+
         <!-- ABOUT -->
-        
         <div class="section" id="about">
-            <h1 class="section-title">About</h1>
-            <h4>New Jersey's largest women-centric hackathon.</h4>
-            <div id="about-info">
-                <p>
-                    Join us for a weekend dedicated to <b>filling the gender gap</b>,
-                    exploring technology, and building the next big thing! Our mission
-                    is to support and nurture women* in tech by hosting Rutgers'
-                    premiere hackathon addressing issues of the gender gap in technology. Expect a weekend
-                    full of workshops, mentorship, tech talks, social activities,
-                    and more! No experience necessary, you just need passion.                    
-                </p>
-                <p>
-                    In its tenth iteration, over 200 students will come together for 24 hours to 
-                    <b>create with code </b> and turn their ideas into reality. HackHERS is organized by 
-                    <b><a href="http://rutgerswics.org" target="_blank">Rutgers Women in Computer Science</a></b>.
-                </p>
+            <div class="diano-container">
+                <div class="floating-image">
+                    <img src="images/graphics/dinofairy.png" alt="Dino Fairy" class="dino-image" style="height: 150px; width: 150px;">
+                </a>
+                </div>
             </div>
-            <div id="info-cards">
-                <div class="card">
-                    <img class="about-img" src="" width="150px">
-                    <p>
-                        From hardware to mobile, there are so many fields to
-                        explore! We want women to explore their ideas and interests, and
-                        are looking forward to some amazing projects!
-                    </p>
-                </div>
-                <div class="card">
-                    <img class="about-img" src="" width="150px">
-                    <p>
-                        We're all about helping each other grow! We hope to foster a
-                        supportive environment so that each participant at HackHERS
-                        feels welcome and comfortable.
-                    </p>
-                </div>
-                <div class="card">
-                    <img class="about-img" src="" width="150px">
-                    <p>
-                        Right now, only 20% of hackathon participants are women. We hope
-                        to fill that gap by providing a comfortable environment that is
-                        focused on learning and exploring!
-                    </p>
-                </div>
+            <div id="about-info">
+                <h1 class="section-title">About</h1>
+                <p>
+                    <b style="font-weight: bold; color: #9BBDEE;">HackHERS</b> is Rutgers <b style="font-weight: bold; color: #9BBDEE;">Women in Computer Science’s</b> annual <b style="font-weight: bold; color: #9BBDEE;">24 hour hackathon</b>. Our mission is to support and nurture women* in tech by hosting Rutgers' premiere hackathon addressing issues of the gender gap in technology. Expect a weekend full of workshops, mentorship, tech talks, social activities, and more!           
+                </p>
+                <h2 id="since-2015"> Since 2015 We've Had...</h2>
+                <div class="stats-container">
+                    <div class="stats-column">
+                      <h2 class="counter" data-target="1600">0</h2>
+                      <p>Hackers</p>
+                    </div>
+                    <div class="stats-column">
+                      <h2 class="counter" data-target="26000" data-prefix="$">$26k+</h2>
+                      <p>in Prizes</p>
+                    </div>
+                    <div class="stats-column">
+                      <h2 class="counter" data-target="10">10</h2>
+                      <p>HackHERS</p>
+                    </div>
+                  </div>
+                  
+        
             </div>
         </div>
-    
+        <!-- TRACKS -->
+        <div class = "section" id="tracks">
+            <h1 class="section-title">Tracks</h1><br>
+            <h4 style="color: white"> COMING SOON </h4>
+        </div>
+        <!-- SCHEDULE -->
         <div class = "section" id="schedule">
             <h1 class="section-title">Schedule</h1><br>
-            <span style="font-size: 20px">
-                <h5><b> All times are in EST </b></h5><br>
-                 <div>
-                    <iframe class="airtable-embed" src="https://airtable.com/embed/appo8HcRRgQI7uqAv/shrZ0q74bv68PgiYz?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>  
-                 </div>
-
-                
+            <h4 style="color: white"> COMING SOON </h4>
         </div>
-       
-
         <!-- FAQ -->
         <div class="section" id="faq">
-
+            <h1 class="section-title">Faqs</h1>
+            <h4 class="additional-questions"> For additional questions, email us at <a href="mailto:rutgers.hackhers@gmail.com" style="font-weight: bold; color: #9BBDEE;">rutgers.hackhers@gmail.com</a></h4>
             <div id="faq-content">
-
+                <div class="faq-column">
                 <ul class="faq">
-                    <div class="section-title">FAQS</div>
                     <li>
-                            <h3 class="question">What is a women-centric hackathon?</h3>
-
+                        <h3 class="question"><img src="images/faq-icons/fairy.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;"> What is a women-centric hackathon?</h3>
                         <div class="answer">
                             HackHERS is a hackathon geared towards women. We allow people of all genders to participate because closing the gender gap in technology is an issue that everyone needs to partake in.
                             There are so many reasons why more women should be involved in tech, yet there are still barriers present to this day that contribute to underrepresentation. By organizing this event, we work to close this gender gap.
                         </div>
                     </li>
                     <li>
-                        <h3 class="question">I identify as a male—does that mean I can attend then?
+                        <h3 class="question"><img src="images/faq-icons/cinderella-shoe.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">I identify as a male—can I still attend?
                         </h3>
                         <div class="answer">
                             Yes! It is very important to us that all genders work together and build awesome projects!
@@ -152,29 +123,22 @@
                         </div>
                     </li>
                     <li>
-                        <h3 class="question">I don’t have any coding experience, can I still participate?
+                        <h3 class="question"><img src="images/faq-icons/frog-prince.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">Can I attend without coding experience?
                         </h3>
                         <div class="answer">
                             OF COURSE! A hackathon provides the perfect environment to learn how to code. As long as you have an open mind and are willing to learn, we guarantee you will get something out of it. We also tailor HackHERS to be beginner-friendly, so we will be providing workshops all throughout the day, and there will be volunteer and mentors ready to answer any questions you may have.
                         </div>
-                    </li>
+                    </li>      
                     <li>
-                        <h3 class="question">I don’t feel comfortable going in without some experience...
+                        <h3 class="question"><img src="images/faq-icons/magic-wand.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">How do I apply?
                         </h3>
                         <div class="answer">
-                            We understand, and we got you! Every year, we host a series of workshops about a week before HackHERS called "Pre-HackHERS", in which we cover topics such as basic web development, how to use git and github, etc. We also provide professional development workshops as well. More details about Pre-HackHERS 2021 will be released on our Facebook page.
+                            Applications for hackers will close a week before the event!!!
+                            You can apply <a href = 'register.html'>here!</a>.
                         </div>
                     </li>
                     <li>
-                        <h3 class="question">How do I apply?
-                        </h3>
-                        <div class="answer">
-                            Applications for hackers will close by 3rd February!!!
-                            You can apply <a href = "https://tinyurl.com/4b8ce4xn">here!</a>.
-                        </div>
-                    </li>
-                    <li>
-                        <h3 class="question">Does this cost money?
+                        <h3 class="question"><img src="images/faq-icons/tale.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">Does this cost money?
                         </h3>
                         <div class="answer">
                             Nope! Participating in HackHERS is free of cost.
@@ -182,14 +146,14 @@
                     </li>
 
                     <li>
-                        <h3 class="question">Where will HackHERS take place?
+                        <h3 class="question"><img src="images/faq-icons/orc.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">Where will HackHERS take place?
                         </h3>
                         <div class="answer">
-                            HackHERS will take place on Saturday and Sunday at Trayes Hall on Cook Douglass campus.
+                            HackHERS will take place on Saturday and Sunday at the College Avenue Student Center at Rutgers University, New Brunswick, NJ.
                         </div>
                     </li>
                     <li>
-                        <h3 class="question">Is there any parking available?
+                        <h3 class="question"><img src="images/faq-icons/mushroom.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">Is there any parking available?
                         </h3>
                         <div class="answer">
                             If you are planning on driving, there will be event parking available. Non-Rutgers students may park at Lots 26, Lots 30 or College Avenue Deck.
@@ -199,60 +163,55 @@
                             Special event parking and special event permits are only for visitors to the University which does not include free metered parking. 
                             Rutgers students with registered vehicles are NOT allowed to park in these lots. 
                         </div>
-                    </li> 
+                    </li>
+                </ul>
+                </div>
+                <div class="faq-column">
+                    <ul class="faq">
                     <li>
-                        <h3 class="question">How do teams work?
+                        <h3 class="question"><img src="images/faq-icons/moon.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">How do teams work?
                         </h3>
                         <div class="answer">
                             At most teams can have 4 people. You can have your teammates in mind before the event, or you can find a team during our team formation activity before and after opening ceremony!
                         </div>
                     </li>
                     <li>
-                        <h3 class="question">Can I come if I am still in high school?
+                        <h3 class="question"><img src="images/faq-icons/fairy2.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">Can I come if I am still in high school?
                         </h3>
                         <div class="answer">
                             Unfortunately, due to Rutgers policy, we cannot allow high schoolers to attend HackHERS :( However we will still encourage and support you to learn and build to your heart’s content on your own! You are more than welcome to email us and ask any questions about how to get started.
                         </div>
                     </li> 
                     <li>
-                        <h3 class="question">What about travel reimbursements?
+                        <h3 class="question"><img src="images/faq-icons/golden-egg.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">What about travel reimbursements?
                         </h3>
                         <div class="answer">
-                            Unfortunately, due to Rutgers administration policy, we are unable to provide travel reimbursements or buses to HackHERS :( We are willing to work with you and/or your group to arrange cheap travel to the event.Sorry for the inconvenience.
+                            Unfortunately, due to Rutgers administration policy, we are unable to provide travel reimbursements or buses to HackHERS. We are willing to work with you and/or your group to arrange cheap travel to the event.Sorry for the inconvenience.
                         </div>
                     </li> 
                     <li>
-                        <h3 class="question">What should I bring?
+                        <h3 class="question"><img src="images/faq-icons/apple.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">What should I bring?
                         </h3>
                         <div class="answer">
-                            Reminder: This will not be an overnight event!
                             Remember to bring a valid student or goverment-issued ID for admission and anything you need to hack away! 
                         </div>
                     </li> 
                    <li>
-                        <h3 class="question">What is with the dinosaur?
+                        <h3 class="question"><img src="images/faq-icons/dino.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">What is with the dinosaur?
                      </h3>
                        <div class="answer">
                             Diano is our mascot, and she isn't just any dinosaur. She's a dinosaur that hacks. Why wouldn't you love a dinosaur that also hacks?
                         </div>
                    </li>
-                    <!-- <li>
-                        <h3 class="question">Is there a code of conduct?
-                        </h3>
-                        <div class="answer">
-                            Yes, we want to make HackHERS enjoyable for everyone! We follow MLH's Code of Conduct:
-                            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a>.
-                        </div>
-                    </li> -->
                     <li>
-                        <h3 class="question">This looks like a cool event! Can my company get involved??
+                        <h3 class="question"><img src="images/faq-icons/castle.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">How can my company get involved?
                         </h3>
                         <div class="answer">
-                            Absolutely! If you want to sponsor us, please email <a href="mailto:sponsorship@hackhers.org">sponsorship@hackhers.org</a>
+                            Absolutely! If you want to sponsor us, please email <a href="mailto:sponsorship@hackhers.org">rutgers.hackhers@gmail.com</a>
                         </div>
                     </li>
                     <li>
-                        <h3 class="question">Can I mentor or volunteer?
+                        <h3 class="question"><img src="images/faq-icons/wizard.png" alt="fairy-icon" class="icon" style="height: 25px; width: 25px; margin-right: 15px;">Can I mentor or volunteer?
                         </h3>
                         <div class="answer">
                             Yes! We welcome all regardless of gender who want to help. We appreciate all who want to
@@ -261,99 +220,91 @@
                             during the hackathon with various tasks. 
                         </div>
                     </li>
-            
+                    </ul>
+                </div>
             </div>
         </div>
-
         <!-- SPONSORS -->
         <div class="section" id="sponsors">
-           <div class="section-title">2024 Sponsors</div>
-             <div class="sponsor-thanks">
-                <h4> A <b>huge</b> thank you to all our new sponsors for 2024! HackHERS wouldn't be the same without our amazing sponsors! </h4> 
-                <br>
+            <div class="section-title">2025 Sponsors</div>
+            <h4 style="color: white"> COMING SOON </h4>
+            <div class="sponsor-thanks">
+                    <!-- <a href="https://www.fiserv.com/en.html" target="_blank"><img
+                            src="images/sponsors/gold/fiserv.png"></a>
+                    
+                    <a href="http://vanguard.com/" target="_blank"><img 
+                            src="images/sponsors/gold/VG_WordMark.png"></a>
 
-                    <div class="sponsor-tier gold">
-                       
-                        <a href="https://www.fiserv.com/en.html" target="_blank"><img
-                                src="images/sponsors/gold/fiserv.png"></a>
-                       
-                        <a href="http://vanguard.com/" target="_blank"><img 
-                                src="images/sponsors/gold/VG_WordMark.png"></a>
+                    <a href="https://cloud.google.com/" target="_blank"><img
+                            src="images/sponsors/silver/google_cloud.png"></a>
 
-                        <a href="https://cloud.google.com/" target="_blank"><img
-                                src="images/sponsors/silver/google_cloud.png"></a>
+                    <a href="https://www.bloomberg.com/" target="_blank"><img
+                            src="images/sponsors/silver/bloomberg.png"></a> 
+                    
+                    <a href="https://www.geico.com/" target="_blank"><img
+                            src="images/sponsors/silver/geico.png"></a>
 
-                        <a href="https://www.bloomberg.com/" target="_blank"><img
-                                src="images/sponsors/silver/bloomberg.png"></a> 
-                        
-                        <a href="https://www.geico.com/" target="_blank"><img
-                                src="images/sponsors/silver/geico.png"></a>
-
-                        <a href="https://rewritingthecode.org/" target="_blank"><img
-                                src="images/sponsors/silver/RTC.jpg"></a>
-                    </div> 
-        </div> 
-
-            </div>
-
-
-    
-
+                    <a href="https://rewritingthecode.org/" target="_blank"><img
+                            src="images/sponsors/silver/RTC.jpg"></a> -->
+            </div> 
+         </div>
+    <!-- MEET THE TEAM -->
     <section id="team">
-		<div class="section-title">Meet the Team</div>
+        <div class="section-title">Meet the Team</div>
+        <h4 style="color: white"> COMING SOON </h4>
 
-		<div class="row">
+        <!-- <div class="row">
             <div class="col-xs-6 col-sm-3">
-				<li class="team-wrapper">
-					<div class="lead">
+                <li class="team-wrapper">
+                    <div class="lead">
                         <a href="https://www.linkedin.com/in/srinidhiayala/">
                             <img src="images/board/srinidhi2023.png"></a>
-							<h4> Srinidhi Ayalasomayajula </h4>
-							<h6> HackHERS Director  </h6>
-					</div>
-				</li>
-			</div>
+                            <h4> Srinidhi Ayalasomayajula </h4>
+                            <h6> HackHERS Director  </h6>
+                    </div>
+                </li>
+            </div>
             <div class="col-xs-6 col-sm-3">
-				<li class="team-wrapper">
-					<div class="lead">
+                <li class="team-wrapper">
+                    <div class="lead">
                         <a href="https://www.linkedin.com/in/khushidarji">
                             <img src="images/board/khushi2023.png"></a>
-							<h4> Khushi Darji </h4>
-							<h6> President </h6>
-					</div>
-				</li>
-			</div>
+                            <h4> Khushi Darji </h4>
+                            <h6> President </h6>
+                    </div>
+                </li>
+            </div>
             <div class="col-xs-6 col-sm-3">
-				<li class="team-wrapper">
-					<div class="lead">                            
+                <li class="team-wrapper">
+                    <div class="lead">                            
                             <a href="https://www.linkedin.com/in/nadine-odeh/">
                                 <img src="images/board/nadine2023.png"></a>
                                 <h4> Nadine Odeh </h4>
                                 <h6> Education Director </h6>
-					</div>
-				</li>
+                    </div>
+                </li>
             </div>
             <div class="col-xs-6 col-sm-3">
-				<li class="team-wrapper">
-					<div class="lead">
+                <li class="team-wrapper">
+                    <div class="lead">
                             <a href="https://www.linkedin.com/in/amandaltsui">
                                 <img src="images/board/amanda2023.png"></a>
                             <h4> Amanda Tsui </h4>
                             <h6> Treasurer </h6>
-					</div>
-				</li>
-			</div>
+                    </div>
+                </li>
+            </div>
 
-		</div>
+        </div>
 
-		<div class="row">
+        <div class="row">
             <div class="col-xs-4 col-sm-4">
                 <li class="team-wrapper">
                     <div class="lead">
                         <a href="https://www.linkedin.com/in/tanviyamarthy/">
                             <img src="images/board/tanvi2023.png"></a>
-						    <h4> Tanvi Yamarthy </h4>
-						    <h6> Outreach Director </h6>
+                            <h4> Tanvi Yamarthy </h4>
+                            <h6> Outreach Director </h6>
                     </div>
                 </li>
             </div>
@@ -367,29 +318,29 @@
                     </div>
                 </li>
             </div>
-			<div class="col-xs-4 col-sm-4">
-				<li class="team-wrapper">
-					<div class="lead">
+            <div class="col-xs-4 col-sm-4">
+                <li class="team-wrapper">
+                    <div class="lead">
                         <a href="https://www.linkedin.com/in/nicole-hsieh/">
                             <img src="images/board/nicole2023.png"></a>
                             <h4> Nicole Hsieh </h4>
                             <h6> Outreach Director </h6>
-					</div>
-				</li>
-			</div>
-		</div>
+                    </div>
+                </li>
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-xs-4 col-sm-3">
-				<li class="team-wrapper">
-					<div class="lead">
+                <li class="team-wrapper">
+                    <div class="lead">
                         <a href="https://www.linkedin.com/in/nithya-konduru-13357b287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                             <img src="images/board/nithya2023.png"></a>
                             <h4> Nithya Konduru </h4>
                             <h6> Events Director </h6>
-					</div>
-				</li>
-			</div>
+                    </div>
+                </li>
+            </div>
             <div class="col-xs-6 col-sm-3">
                 <li class="team-wrapper">
                     <div class="lead">
@@ -411,29 +362,29 @@
                 </li>
             </div>
 
-			<div class="col-xs-6 col-sm-3">
-				<li class="team-wrapper">
-					<div class="lead">
+            <div class="col-xs-6 col-sm-3">
+                <li class="team-wrapper">
+                    <div class="lead">
                             <a href="https://www.linkedin.com/in/tanushreemehta/">
                                 <img src="images/board/tanushree2023.png"></a>
-						        <h4> Tanushree Mehta </h4>
-						        <h6> Girls Who Code Director </h6>
-					</div>
-				</li>
-			</div>
-		</div>
+                                <h4> Tanushree Mehta </h4>
+                                <h6> Girls Who Code Director </h6>
+                    </div>
+                </li>
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-xs-6 col-sm-4">
-				<li class="team-wrapper">
-					<div class="lead">
+                <li class="team-wrapper">
+                    <div class="lead">
                         <a href="https://www.linkedin.com/in/natalie-chow-a99029219/">
                             <img src="images/board/natalie2023.png"></a>
                             <h4> Natalie Chow </h4>
                             <h6> Marketing Director </h6>
-					</div>
-				</li>
-			</div>
+                    </div>
+                </li>
+            </div>
             <div class="col-xs-6 col-sm-4">
                 <li class="team-wrapper">
                         <div class="lead">
@@ -445,62 +396,22 @@
                 </li>
             </div>
         </div>
-		</div>
+        </div>
 
-	</section>
+    </section>
 </div>
 
-</div>
-
-
-
-<section id="committee">
-<div class="section-title">Thank You to Our Committee Members!</div>
-
-<div class="committee-section">
-<div class="row">
-    <div class="col-sm">
-        <h4>Marketing Committee</h4>
-        <h6>  </h6>
-        <h6> Akshara Kollu </h6>
-        <h6> Aparna Pillai </h6>
-        <h6> Bavina Inuganti </h6>
-        <h6> Haaniah Syed Ali </h6>
-        <h6> Kelly Xiong </h6>
-        <h6> Mary Buist </h6>
-        <h6> Pranjel Harare </h6>
-        <h6> Priti Kote </h6>
-    </div>
-    <div class="col-sm">
-        <h4>Sponsorship Committee</h4>
-        <h6>  </h6>
-        <h6> Andrea Kim  </h6>
-        <h6> Divya Israeli </h6>
-        <h6> Mansi Garg </h6>
-        <h6> Natalie Kim </h6>
-        <h6> Priyanka Dhingra </h6>
-        <h6> Sara Deshmukh </h6>
-        <h6> Shilpi Shah </h6>
-    </div>
-    <div class="col-sm">
-        <h4>Design Committee</h4>
-        <h6>  </h6>
-        <h6> Ambereen Fatima  </h6>
-        <h6> Jazmin Delos Santos </h6>
-        <h6> Natalie Kim </h6>
-        <h6> Rosie Kim </h6>
-        <h6> Aditi Negi </h6>
-    </div>
+</div> -->
 
 </div>
-</div>
-
-
-</div>
-
-</section>
-</div>
-
+<!-- was thinking about adding a map maybe -->
+<!-- <div class="map">
+    <iframe src="https://storage.googleapis.com/maps-solutions-nf5eckme6s/locator-plus/zm7c/locator-plus.html"
+        width="100%" height="100%"
+        style="border:0;"
+        loading="lazy">
+    </iframe>
+</div> -->
 
     <!-- footer -->
     <div id="footer">
@@ -520,14 +431,12 @@
                 </a>
             </div>
         </div>
-
         <div class="made-with">
-            <p>Made with 💜 in New Brunswick</p>
+            <p>Made with &lt;3 by the HackHERS Team</p>
+            <a href="https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md" style="color: white; font-size: 12px; text-decoration: underline;"> MLH Code of Conduct</a>
         </div>
-
-
     </div>
-    <!-- <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg" alt="Major League Hacking 2024 Hackathon Season" style="width:100%"></a> -->
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-gray.svg" alt="Major League Hacking 2025 Hackathon Season" style="width:100%"></a>
 </body>
 
 </html>
