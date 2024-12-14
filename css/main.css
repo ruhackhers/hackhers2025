@@ -540,7 +540,6 @@ iframe {
 
 /* adjustments for diff viewport sizes */
 @media (max-width: 1025px) {
-  
   #header {
     display: flex;
     align-items: center;
@@ -703,6 +702,9 @@ iframe {
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
+  body {
+    background-image: url("../images/graphics/hackhersbg-mobile.png");
+  }
   #team .team-wrapper {
     width: 100%;
   }
