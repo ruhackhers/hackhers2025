@@ -24,7 +24,7 @@ body {
   background-color: transparent;
   font-family: 'Quicksand', sans-serif;
   scroll-snap-type: y mandatory;
-  background-image: url('../images/graphics/2025background.png');
+  background-image: url("../images/graphics/2025background.png");
   background-size: cover;
   /* background-position: center center; */ 
   max-width: 100%;
@@ -1107,9 +1107,9 @@ iframe {
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
-#team .team-wrapper {
-    width: 80%;
-}
+  #team .team-wrapper {
+    width: 100%;
+  }
 
 #logo{
   width: 250px;

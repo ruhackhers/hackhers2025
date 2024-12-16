@@ -148,6 +148,9 @@ should be cleared when going to a different res size*/
   }
 }
 @media (min-width: 500px) and (max-width: 956px) {
+  body {
+    background-image: url("../images/graphics/hackhersbg-mobile.png");
+  }
   .navbar-toggler {
     position: relative;
     float: right;
