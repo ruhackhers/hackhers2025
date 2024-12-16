@@ -703,7 +703,7 @@ iframe {
 
 @media (min-width: 300px) and (max-width: 499px) {
   body {
-    background-image: url("../images/graphics/hackhers-mobile-morespace.png");
+    background-image: url("../images/graphics/hackhersbg-mobile-extralong.png");
   }
   #team .team-wrapper {
     width: 100%;
