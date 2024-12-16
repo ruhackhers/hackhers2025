@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>HackHERS 2024</title>
     <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -46,6 +46,17 @@
         </ul>
 </nav>
 </div>
+<div class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <div id = "myDropdown" class="dropdown-content">
+        <li class="drop-item"><a href="#about" class="drop-link">About</a></li>
+        <li class="drop-item"><a href="#tracks" class="drop-link">Tracks</a></li>
+        <li class="drop-item"><a href="#schedule" class="drop-link">Schedule</a></li>
+        <li class="drop-item"><a href="#faq" class="drop-link">Faq</a></li>
+        <li class="drop-item"><a href="#sponsors" class="drop-link">Sponsors</a></li>
+        <li class="drop-item"><a href="#team" class="drop-link">Team</a></li>
+    </div>
+  </div>
         
     </div> 
     <div id="main">
@@ -60,32 +71,36 @@
 
         <!-- ABOUT -->
         <div class="section" id="about">
-            <div class="diano-container">
+            <div class="dino-container">
                 <div class="floating-image">
-                    <img src="images/graphics/dinofairy.png" alt="Dino Fairy" class="dino-image" style="height: 150px; width: 150px;">
+                    <img src="images/graphics/dinofairy.png" alt="Dino Fairy" class="dino-image">
                 </a>
                 </div>
             </div>
             <div id="about-info">
                 <h1 class="section-title">About</h1>
-                <p>
-                    <b style="font-weight: bold; color: #9BBDEE;">HackHERS</b> is Rutgers <b style="font-weight: bold; color: #9BBDEE;">Women in Computer Science’s</b> annual <b style="font-weight: bold; color: #9BBDEE;">24 hour hackathon</b>. Our mission is to support and nurture women* in tech by hosting Rutgers' premiere hackathon addressing issues of the gender gap in technology. Expect a weekend full of workshops, mentorship, tech talks, social activities, and more!           
+                <div class="paragraph-container">
+                <p id = "paragraph">
+                    <b class="highlight">HackHERS</b> is Rutgers <b class="highlight">Women in Computer Science’s</b> annual <b class="highlight">24 hour hackathon</b>. Our mission is to support and nurture women* in tech by hosting Rutgers' premiere hackathon addressing issues of the gender gap in technology. Expect a weekend full of workshops, mentorship, tech talks, social activities, and more! 
                 </p>
+                </div>
                 <h2 id="since-2015"> Since 2015 We've Had...</h2>
+
                 <div class="stats-container">
                     <div class="stats-column">
                       <h2 class="counter" data-target="1600">0</h2>
-                      <p>Hackers</p>
+                      <p id = "name">Hackers</p>
                     </div>
                     <div class="stats-column">
                       <h2 class="counter" data-target="26000" data-prefix="$">$26k+</h2>
-                      <p>in Prizes</p>
+                      <p id = "name">in Prizes</p>
                     </div>
                     <div class="stats-column">
                       <h2 class="counter" data-target="10">10</h2>
-                      <p>HackHERS</p>
+                      <p id = "name">HackHERS</p>
                     </div>
                   </div>
+                </div>
                   
         
             </div>
@@ -93,12 +108,12 @@
         <!-- TRACKS -->
         <div class = "section" id="tracks">
             <h1 class="section-title">Tracks</h1><br>
-            <h4 style="color: white"> COMING SOON </h4>
+            <h4 class = "coming" > COMING SOON </h4>
         </div>
         <!-- SCHEDULE -->
         <div class = "section" id="schedule">
             <h1 class="section-title">Schedule</h1><br>
-            <h4 style="color: white"> COMING SOON </h4>
+            <h4 class = "coming" style="color: white"> COMING SOON </h4>
         </div>
         <!-- FAQ -->
         <div class="section" id="faq">
@@ -227,7 +242,7 @@
         <!-- SPONSORS -->
         <div class="section" id="sponsors">
             <div class="section-title">2025 Sponsors</div>
-            <h4 style="color: white"> COMING SOON </h4>
+            <h4 class = "coming"> COMING SOON </h4>
             <div class="sponsor-thanks">
                     <!-- <a href="https://www.fiserv.com/en.html" target="_blank"><img
                             src="images/sponsors/gold/fiserv.png"></a>
@@ -251,7 +266,7 @@
     <!-- MEET THE TEAM -->
     <section id="team">
         <div class="section-title">Meet the Team</div>
-        <h4 style="color: white"> COMING SOON </h4>
+        <h4 class = "coming"> COMING SOON </h4>
 
         <!-- <div class="row">
             <div class="col-xs-6 col-sm-3">
@@ -413,30 +428,35 @@
     </iframe>
 </div> -->
 
-    <!-- footer -->
-    <div id="footer">
-        <div class="footer-left">
-            <div class="footer-logo">
-                <img src="images/logos/text-logo-footer.png" class="footer-img">
-            </div>
-            <div class="social-icons">
-                <a href="http://facebook.com/ruhackhers" target="_blank">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="http://instagram.com/ruhackhers/?hl=en" target="_blank">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="mailto:rutgers.hackhers@gmail.com" target="_blank">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                </a>
-            </div>
+   <!-- footer -->
+   <div id="footer">
+    <div class="footer-left">
+        <div class="footer-logo">
+            <img src="images/logos/text-logo-footer.png" class="footer-img">
         </div>
-        <div class="made-with">
-            <p>Made with &lt;3 by the HackHERS Team</p>
-            <a href="https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md" style="color: white; font-size: 12px; text-decoration: underline;"> MLH Code of Conduct</a>
+        <div class="social-icons">
+            <a href="http://facebook.com/ruhackhers" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="http://instagram.com/ruhackhers/?hl=en" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:rutgers.hackhers@gmail.com" target="_blank">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
-    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-gray.svg" alt="Major League Hacking 2025 Hackathon Season" style="width:100%"></a>
+    <div class="made-with">
+        <p>Made with &lt;3 by the HackHERS Team</p>
+        <a href="https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md" style="color: white; font-size: 12px; text-decoration: underline;"> MLH Code of Conduct</a>
+    </div>
+    </div>
+    <a id="mlh-trust-badge" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=gray" target="_blank">
+        <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-gray.svg" alt="Major League Hacking 2025 Hackathon Season">
+      </a>
 </body>
 
 </html>
+
+
+
