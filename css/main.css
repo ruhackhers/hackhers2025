@@ -15,6 +15,8 @@ html {
 * {
   box-sizing: border-box;
   /* overflow-x: hidden; */
+  cursor: url('../images/graphics/magic-wand.png'), auto; 
+
   
 
 }
@@ -28,7 +30,6 @@ body {
   background-repeat: no-repeat;
   /* background-position: center center; */ 
   max-width: 100%;
-  cursor: url('../images/graphics/magic-wand.png'), pointer; 
   height: 100%;
 }
 
