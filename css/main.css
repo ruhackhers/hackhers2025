@@ -8,6 +8,7 @@ html {
   scroll-behavior: smooth;
   width: 100%;
   height: 100%;
+
   
   
 }
@@ -518,7 +519,7 @@ list-inline > li {
 /*team styling - need to fix*/
 
 .section#team{
-  margin-top: 100vh;
+  margin-top: 140vh;
   text-align: center;
 
 }
@@ -983,7 +984,7 @@ iframe {
 }
 
 .section#team{
-  margin-top: 172vh;
+  margin-top: 140vh;
 }
 
 }
