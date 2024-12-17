@@ -26,6 +26,7 @@ body {
   scroll-snap-type: y mandatory;
   background-image: url("../images/graphics/hackhersbg-desktop.png");
   background-size: cover;
+  background-repeat: no-repeat;
   /* background-position: center center; */ 
   max-width: 100%;
   cursor: url('../images/graphics/magic-wand.png'), pointer; 
@@ -146,7 +147,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   width: 50%;
-  height: 130vh;
+  height: 100vh;
   margin-left: auto;
   margin-right: 0;
 }
@@ -273,7 +274,7 @@ p {
 /* TRACKS section */
 
 .section#tracks{
-  margin-top: 10vh;
+  margin-top: 40vh;
   margin-left: 10vh; 
 }
 
@@ -417,7 +418,7 @@ list-inline > li {
 /* SPONSORS */
 
 .section#sponsors{
-  height: 130vh;
+  margin-bottom: 150vh;
   text-align: center;
 
 }
@@ -425,7 +426,6 @@ list-inline > li {
 /*team styling - need to fix*/
 
 #team{
-  height: 350vh;
   text-align: center;
 }
 
