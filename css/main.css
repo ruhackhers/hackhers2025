@@ -32,6 +32,28 @@ body {
   cursor: url('../images/graphics/magic-wand.png'), pointer; 
 }
 
+.star {
+  position: absolute;
+  width: 10px; /* Size of the star */
+  height: 10px; /* Size of the star */
+  background: gold; /* Gold color for the star */
+  clip-path: polygon(
+    50% 0%, 
+    61% 35%, 
+    98% 35%, 
+    68% 57%, 
+    79% 91%, 
+    50% 70%, 
+    21% 91%, 
+    32% 57%, 
+    2% 35%, 
+    39% 35%
+  ); /* Creates a star shape */
+  pointer-events: none;
+  opacity: 0; /* Initial opacity (invisible) */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
 /*styling navbar*/
 
 .navbar{
