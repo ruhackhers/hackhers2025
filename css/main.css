@@ -24,7 +24,7 @@ body {
   background-color: transparent;
   font-family: 'Quicksand', sans-serif;
   scroll-snap-type: y mandatory;
-  background-image: url("../images/graphics/2025background.png");
+  background-image: url("../images/graphics/hackhersbg-desktop.png");
   background-size: cover;
   /* background-position: center center; */ 
   max-width: 100%;
@@ -573,11 +573,14 @@ iframe {
     width: 90%;
   }
   body { /* to fix up background sizing */ 
-    background-size: 450px; 
+    background-size: cover; 
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('../images/graphics/hackhersbg-mobile.png');
+    background-image: url('../images/graphics/hackhersbg-mobile-extralong.png');
     
+  }
+  #footer { 
+    margin-top: 1800px;
   }
   #mlh-trust-badge { /* to move MLH badge to right */
     right: 0px;
@@ -593,6 +596,7 @@ iframe {
 
   #title-name { /* adjust title font size */
     font-size: 40px; /* Adjusted for smaller screens */
+    margin-top: 100px; 
   }
 
   #title-date { /* adjust date font size */
@@ -674,7 +678,7 @@ iframe {
 
   #about-info .section-title { /* move the about title up */ 
     position: relative; /* Allows precise positioning */
-    top: -75px; /* move up the title */ 
+    top: -35px; /* move up the title */ 
     font-size: 28px; /* Adjust font size */
 }
   
@@ -688,7 +692,7 @@ iframe {
   
   #paragraph {
     color: #ffffff; /* Change text color */
-    margin-top: 1px; /* Move it up slightly */
+    margin-top: -35px; /* Move it up slightly */
   } 
 
   .paragraph-container {
@@ -696,7 +700,7 @@ iframe {
     padding: 20px; /* formats text */ 
     margin-right: -2ch; /* moves text to the right */
     text-align: right; 
-    margin-top: -105px; /* moves text up */
+    margin-top: -30px; /* moves text up */
     }  
     .stats-container {
     max-width: 240px; /* Adjust width */
@@ -733,7 +737,7 @@ iframe {
 
 .dino-container { /* move dino up*/ 
   width: 500px;
-  margin-top: -450px
+  margin-top: -250px
   
 }
 
@@ -743,7 +747,7 @@ iframe {
   margin-right: 290px; 
 }
 #tracks .section-title { /* move the tracks title up */ 
-  margin-top: -500px;
+  margin-top: -450px;
   margin-left: -40px; 
 }
 
@@ -752,7 +756,7 @@ iframe {
   margin-left: -50px;
  }
  #schedule .section-title { /* move the schedule title up */
-  margin-top: -400px;
+  margin-top: -50px;
   text-align: center;
 }
 
@@ -762,7 +766,7 @@ iframe {
 
 
  #faq .section-title { /* move the FAQ title up */
-  margin-top: -650px;
+  margin-top: -100px;
   text-align: center;
 }
 #faq .additional-sections { 
@@ -865,17 +869,13 @@ iframe {
 }
 
 #sponsors .section-title { /* move the sponsors title up */
-  margin-top: -650px;
+  margin-top: -550px;
   text-align: center;
 }
 
 #team .section-title { /* move the meet the team up */
-  margin-top: -1300px;
+  margin-top: -500px;
   text-align: center;
-}
-
-#footer {
-  margin-top: 23ch; 
 }
 
 
