@@ -4,13 +4,11 @@
   width: device-width;
 }
 
-@-ms-viewport {
-  width: device-width;
-}
-
-
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  
   
 }
 * {
@@ -24,12 +22,13 @@ body {
   background-color: transparent;
   font-family: 'Quicksand', sans-serif;
   scroll-snap-type: y mandatory;
-  background-image: url("../images/graphics/hackhersbg-desktop.png");
+  background-image: url("../images/graphics/hackhersbg-desktop-FINAL.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position: center center; */ 
   max-width: 100%;
   cursor: url('../images/graphics/magic-wand.png'), pointer; 
+  height: 100%;
 }
 
 .star {
@@ -95,6 +94,7 @@ body {
 
 .section {
   font-size: 1.5em;
+
 }
 
 .section-title {
@@ -113,7 +113,8 @@ body {
   justify-content: center; 
   align-items: flex-end;  /* Align content to the right horizontally */
   width: 100%;  /* Full width */
-  height: 120vh;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
 }
 
 #title-name {
@@ -144,12 +145,16 @@ body {
   margin-top: 10px;
 }
 
-#title-register{
-  background-color: rgba(187, 123, 207, 0.8);
-  border-radius: 10px;
-  margin-top: 10px;
-  color: white;
+#title-register {
+  background-color: rgba(160, 72, 188, 1); /* Solid purple background */
+  border: 4.5px solid #CD94DF; /* Border style, width, and color */
+  border-radius: 30px; /* Rounded corners */
+  margin-top: 25px; /* Top margin */
+  color: white; /* Text color */
+  font-weight: bold;
+  font-size: 30px;
 }
+
 #title-register:hover {
   background-color: #8063a1; 
   color: #ffc8ea; 
@@ -169,7 +174,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   width: 50%;
-  height: 100vh;
+  height: 88vh;
   margin-left: auto;
   margin-right: 0;
 }
@@ -220,6 +225,7 @@ p {
   font-size: 30px; 
   font-weight: 600; 
   margin-bottom: 10px; 
+  color: #C8D5ED;
 }
 
 .counter {
@@ -295,15 +301,81 @@ p {
 
 /* TRACKS section */
 
-.section#tracks{
-  margin-top: 40vh;
-  margin-left: 10vh; 
+.section#tracks {
+  margin-top: 60vh;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  padding-left: 10vh;
+  padding-right:10vh;
+}
+
+#choose-your-char{
+  color: #9BBDEE;
+  font-size: 30px;
+  margin: 0;
+}
+
+
+.section#tracks .container {
+  justify-content: center;
+  padding: 4vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Default: 4 boxes per row */
+  gap: 60px;
+  justify-items: center;
+}
+
+.section#tracks .track {
+  width: 250px;
+  text-align: center;
+}
+
+
+.section#tracks .image-container {
+  background-color: rgba(79, 80, 120, 0.8); /* 4F5078 with 80% opacity */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible; /* Allow image to expand outside container */
+  transition: transform 0.3s ease; /* Smooth transition effect */
+
+
+}
+
+
+.section#tracks .character-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.image-container:hover .character-image {
+  transform: scale(1.2); /* Slightly enlarge the image */
+}
+
+.section#tracks h3 {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #9BBDEE;
+}
+
+.section#tracks p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  line-height: 1.4;
 }
 
 /* SCHEDULE section */
 
 .section#schedule{
-  margin-top: 70vh;
+  margin-top: 20vh;
   text-align: center;
 }
 
@@ -339,10 +411,8 @@ list-inline > li {
 /* FAQ section */
 .section#faq {
   margin-top: 100vh;
-}
+  font-family: 'Quicksand', sans-serif;
 
-.section#sponsors {
-  margin-top: 80vh;
 }
 
 #faq {
@@ -440,13 +510,18 @@ list-inline > li {
 /* SPONSORS */
 
 .section#sponsors{
-  margin-bottom: 150vh;
+  margin-top: 60vh;
   text-align: center;
 
 }
 
 /*team styling - need to fix*/
 
+.section#team{
+  margin-top: 138vh;
+  text-align: center;
+
+}
 #team{
   text-align: center;
 }
@@ -594,9 +669,8 @@ iframe {
   body { /* to fix up background sizing */ 
     background-size: cover; 
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url('../images/graphics/hackhersbg-mobile-extralong.png');
-    
+    background-size: 100%; /* Ensure image fits fully */
+    background-image: url('../images/graphics/hackhersbg4FINALMOBILE.png');
   }
 
 
@@ -610,20 +684,20 @@ iframe {
   }
 
   .section#title { /* move title section up */
-    height: 35vh;
+    height: 33vh;
+    margin: 0;
   }
 
   #title-name { /* adjust title font size */
-    font-size: 40px; /* Adjusted for smaller screens */
-    margin-top: 100px; 
+    font-size: 37px; /* Adjusted for smaller screens */
+    margin-top: 60px; 
   }
 
   #title-date { /* adjust date font size */
-    font-size: 19px;
+    font-size: 16px;
 }
   #title-location { /* adjust location font size */
     font-size: 10px;
-    height: 5vh; 
     margin-top: 2px;
   }
 
@@ -690,111 +764,131 @@ iframe {
   } 
   /* shrink register button */
   #title-register{
-    margin-top: -10px;
-    padding: 9px; 
-    font-size: 12px; 
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 10px; 
+    border: 3px solid #CD94DF;
   }
-
-  
-#about-info .section-title { /* move the about title up */ 
-  position: relative; /* Allows precise positioning */
-  top: -200px; /* move up the title */ 
-  font-size: 28px; /* Adjust font size */
+  /* ALL section titles */
+  .section-title {
+  font-size: 24px;
+  }
+  /* About Section Styles */
+.section#about{
+  height: 23vh;
 }
-  #since-2015 {
-    font-size: 20px; /* Adjust font size */
-    align-items: left;
-    margin-right:130px; /* move it to the left */ 
-    margin-top: 30px; /* Move it up slightly */
-
-  }
-  
-  #paragraph {
-    position: relative; 
-    color: #ffffff; /* Change text color */
-    margin-top: 90px; /* Move it up slightly */
-  } 
-
-  .paragraph-container {
-    max-width: 240px; /* Adjust width */
-    padding: 20px; /* formats text */ 
-    margin-right: -2ch; /* moves text to the right */
-    text-align: right; 
-    margin-top: -320px; /* moves text up */
-    }  
-    .stats-container {
-    max-width: 240px; /* Adjust width */
-    padding: 20px; /* formats text */ 
-    margin-right: 11ch; /* moves text to the left */
-    position: center;  
-    margin-top: -19px; /* moves text up */
-    
-      ;
-    }
-    #counter {
-      font-size: 20px; /* Adjust font size */
-    }
-    .name { 
-      font-size: 20px; /* Adjust font size */
-    }
-  
-  .stats-column h2 {
-    font-size: 35px; 
-    color: #9BBDEE;
-    font-weight: 700;
-  }
-  
-  .stats-column p {
-    font-size: 40px; 
-    color: white;
-  } 
-  
-  
-  .coming {
-    font-size: 20px;
-    color: white; 
-  }
-
-.dino-container { /* move dino up*/ 
-  width: 500px;
-  margin-top: -300px
-  
+#about-info {
+  position: relative;
+  padding-top: 0; /* Remove additional padding to avoid large spaces */
+  margin-top: 0; /* Ensure the section starts after the previous one */
 }
+
+
+#about-info .paragraph-container {
+  max-width: 155px;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+#about-info #paragraph {
+  color: #ffffff;
+  font-size: 0.4rem;
+  margin: 0; /* Remove any additional margin */
+}
+
+#about-info .stats-container {
+  max-width: 160px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+}
+
+#about-info .stats-column h2 {
+  text-align: center;
+  font-size: 13px;
+  color: #9BBDEE;
+  font-weight: 700;
+}
+
+#about-info .stats-column p {
+  font-size: 10px;
+  color: white;
+}
+
+#about-info #since-2015 {
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+/* ALL coming soon's */
+.coming {
+  font-size: 20px;
+  color: white;
+}
+
+#about-info .counter{
+  margin: 0;
+}
+
 #footer {
-  margin-top: 1620px; 
+  margin-top: 500px; 
 }
 
 .dino-image { /* adjust dino size */
-  height: 80px; 
-  width: 60px; 
-  margin-right: 290px; 
-}
-#tracks .section-title { /* move the tracks title up */ 
-  margin-top: -390px;
-  margin-left: -40px; 
+  height: 40px; 
+  width: 30px; 
 }
 
- #tracks .coming {
-  margin-top: -40px;
-  margin-left: -50px;
- }
- #schedule .section-title { /* move the schedule title up */
-  margin-top: -20px;
-  text-align: center;
+/* TRACKS SECTION */
+.section#tracks{
+  height: 100vh;
+  margin-top: 20vh;
 }
 
-#schedule .coming {
-  margin-top: -40px;
+.section#tracks .container {
+  grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
+  gap: 10px;
+}
+
+.section#tracks .track {
+  width: 140px; /* Smaller box size */
+  margin: 5px;
+}
+
+.section#tracks #choose-your-char{
+  font-size: 15px;
+}
+.section#tracks .image-container {
+  width: 100px;
+  height: 100px;
+}
+
+.section#tracks h3 {
+  font-size: 0.7rem; /* Smaller heading */
+}
+
+.section#tracks p {
+  font-size: 0.5rem; /* Smaller paragraph text */
 }
 
 
- #faq .section-title { /* move the FAQ title up */
-  margin-top: -100px;
-  text-align: center;
+/* SCHEDULE SECTION */
+.section#schedule{
+  height: 100vh;
+  margin: 0;
 }
-#faq .additional-sections { 
-  margin-top: -1000px;
+.section#faq{
+  height: 140vh;
+  margin: 0;
+}
+#faq .additional-questions { 
   font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 20px;
  }
 
 
@@ -806,14 +900,6 @@ iframe {
 #faq h1{
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-}
-
-#faq h4{
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 20px;  
-  padding: 20px;
 }
 
 #faq a {
@@ -891,16 +977,14 @@ iframe {
   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
 }
 
-#sponsors .section-title { /* move the sponsors title up */
-  margin-top: -550px;
-  text-align: center;
+
+.section#sponsors{
+  height:10vh;
 }
 
-#team .section-title { /* move the meet the team up */
-  margin-top: -500px;
-  text-align: center;
+.section#team{
+  margin-top: 172vh;
 }
-
 
 }
 
@@ -1064,8 +1148,6 @@ iframe {
 }
 
 @media (max-width: 767px) {
-
-
   #logo{
     width: 300px;
     height: 250px;
@@ -1100,9 +1182,6 @@ iframe {
     padding-bottom: 40px;
   }
 
-  .section-title {
-    font-size: 35px;
-  }
 
   #organizers .person{
     width: 100%;
@@ -1130,6 +1209,7 @@ iframe {
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
+
   #team .team-wrapper {
     width: 100%;
   }
@@ -1163,9 +1243,7 @@ iframe {
   font-size: 40px;
 }
 
-.section#about p{
-  font-size: 12px;
-}
+
 
 .section#faq h3,
 .answer {
