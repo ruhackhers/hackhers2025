@@ -531,9 +531,6 @@ iframe {
   width: 80px;
   overflow: hidden;
 }
-.footer {
-  height: 
-}
 
 .footer-img {
   width: 100%;
@@ -579,9 +576,9 @@ iframe {
     background-image: url('../images/graphics/hackhersbg-mobile-extralong.png');
     
   }
-  #footer { 
-    margin-top: 1800px;
-  }
+
+
+
   #mlh-trust-badge { /* to move MLH badge to right */
     right: 0px;
     }
@@ -676,12 +673,12 @@ iframe {
     font-size: 12px; 
   }
 
-  #about-info .section-title { /* move the about title up */ 
-    position: relative; /* Allows precise positioning */
-    top: -35px; /* move up the title */ 
-    font-size: 28px; /* Adjust font size */
-}
   
+#about-info .section-title { /* move the about title up */ 
+  position: relative; /* Allows precise positioning */
+  top: -200px; /* move up the title */ 
+  font-size: 28px; /* Adjust font size */
+}
   #since-2015 {
     font-size: 20px; /* Adjust font size */
     align-items: left;
@@ -691,8 +688,9 @@ iframe {
   }
   
   #paragraph {
+    position: relative; 
     color: #ffffff; /* Change text color */
-    margin-top: -35px; /* Move it up slightly */
+    margin-top: 90px; /* Move it up slightly */
   } 
 
   .paragraph-container {
@@ -700,7 +698,7 @@ iframe {
     padding: 20px; /* formats text */ 
     margin-right: -2ch; /* moves text to the right */
     text-align: right; 
-    margin-top: -30px; /* moves text up */
+    margin-top: -320px; /* moves text up */
     }  
     .stats-container {
     max-width: 240px; /* Adjust width */
@@ -737,8 +735,11 @@ iframe {
 
 .dino-container { /* move dino up*/ 
   width: 500px;
-  margin-top: -250px
+  margin-top: -300px
   
+}
+#footer {
+  margin-top: 1620px; 
 }
 
 .dino-image { /* adjust dino size */
@@ -747,7 +748,7 @@ iframe {
   margin-right: 290px; 
 }
 #tracks .section-title { /* move the tracks title up */ 
-  margin-top: -450px;
+  margin-top: -390px;
   margin-left: -40px; 
 }
 
@@ -756,7 +757,7 @@ iframe {
   margin-left: -50px;
  }
  #schedule .section-title { /* move the schedule title up */
-  margin-top: -50px;
+  margin-top: -20px;
   text-align: center;
 }
 
