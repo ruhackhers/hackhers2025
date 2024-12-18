@@ -686,7 +686,7 @@ iframe {
   }
 
   .section#title { /* move title section up */
-    height: 38vh;
+    height: 37vh;
     margin: 0;
   }
 
@@ -777,7 +777,7 @@ iframe {
   }
   /* About Section Styles */
 .section#about{
-  height: 23vh;
+  height: 30vh;
 }
 #about-info {
   position: relative;
