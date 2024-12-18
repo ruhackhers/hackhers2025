@@ -928,6 +928,7 @@ iframe {
 .faq-column {
   flex: 1;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 /* Same styles for questions and answers in both columns */
