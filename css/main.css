@@ -863,16 +863,16 @@ iframe {
   font-size: 15px;
 }
 .section#tracks .image-container {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
 }
 
 .section#tracks h3 {
-  font-size: 0.7rem; /* Smaller heading */
+  font-size: 1rem; /* Smaller heading */
 }
 
 .section#tracks p {
-  font-size: 0.5rem; /* Smaller paragraph text */
+  font-size: 0.7rem; /* Smaller paragraph text */
 }
 
 
@@ -928,7 +928,7 @@ iframe {
 .faq-column {
   flex: none;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 /* Same styles for questions and answers in both columns */
