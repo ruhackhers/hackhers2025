@@ -932,8 +932,8 @@ iframe {
 
 /* SCHEDULE SECTION */
 .section#schedule{
-  height: 120vh;
   margin: 0;
+  margin-top: 20vh;
 }
 #schedule-content {
   flex-direction: column;
@@ -951,8 +951,8 @@ iframe {
 
 /* FAQ SECTION */
 .section#faq{
-  height: 150vh;
   margin: 0;
+  margin-top: 20vh;
 }
 
 #faq .additional-questions { 
@@ -1053,11 +1053,12 @@ iframe {
 
 .section#sponsors{
   margin: 0;
-  height: 80vh;
+  margin-top: 20vh;
 }
 
 .section#team{
   margin: 0;
+  margin-top: 50vh;
 }
 
 }
