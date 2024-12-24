@@ -722,7 +722,7 @@ iframe {
   #main{ /* to move content further to right */ 
     width: 90%;
   }
-  body { /* to fix up background sizing */ 
+  html,body { /* to fix up background sizing */ 
     background-size: cover; 
     background-repeat: no-repeat;
     background-size: 100%; /* Ensure image fits fully */
