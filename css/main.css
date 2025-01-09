@@ -1066,6 +1066,58 @@ iframe {
 
 
 
+/* MEET THE TEAM SECTION */
+
+.tabcontent{
+  margin: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.member-card{
+  width: 300px;       
+  height: 300px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box{
+  margin: 0 auto;
+  width: 225px;       
+  height: 225px;     
+  background-color: #D8E1EE;
+  border-radius: 10px;
+}
+
+/*.info-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}*/
+
+.name{
+  font-size: 17px;
+  font-weight: 700;
+  color: #CCB8F9;
+  margin-top: 12px;
+  line-height: 21.25px;
+}
+
+.role{
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  /*opacity: 0.9;*/
+  margin-top: -5px;
+  line-height: 21.25px;
+}
+
 
 
 
