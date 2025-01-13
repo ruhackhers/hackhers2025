@@ -1070,12 +1070,63 @@ iframe {
 
 .tabcontent{
   margin: 20px 20px;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   justify-content: center;  
 }
+/* Show the active tab content */
+.tabcontent.active {
+  display: flex; /* Show only the active tab content */
+}
+
+.tab {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
+  border-bottom: 1.5px solid white; /* Add underline for the tab section */
+  width: 74%; /* Set a specific width for the line */
+  margin: 0 auto; /* Center the line horizontally */
+  margin-bottom: 20px;
+}
+.tablinks {
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0;
+  margin-top: 40px; 
+  font-size: 16px;
+  color: white;
+  transition: 0.3s ease, color 0.3s ease;
+}
+.tab .tablinks:hover {
+  background-color: #2d2c3b; /* Slightly lighter hover effect */
+  color: #ffffff;
+}
+
+.tab .tablinks.active {
+  background-color: #342d5e; /* Highlighted tab */
+  color: white;
+}
+
+
+.tablinks {
+  border: none; /* Remove default border */
+  outline: none; /* Remove default outline */
+}
+
+.tablinks:focus {
+  outline: none; /* Remove outline when focused */
+}
+
+
+
+
 
 .member-card{
+  position: relative; 
   width: 300px;       
   height: 300px;
   margin: 10px 0;

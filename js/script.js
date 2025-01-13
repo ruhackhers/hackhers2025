@@ -44,3 +44,23 @@ $(document).ready(function() {
   });
 
 });
+
+function openTab(event, tabName) {
+  var i, tabcontent, tablinks;
+  
+  // Hide all tab content
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove("active");
+  }
+
+  // Remove the "active" class from all tab links
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+
+  // Show the selected tab content and add "active" class to the clicked tab
+  document.getElementById(tabName).classList.add("active");
+  event.currentTarget.classList.add("active");
+}
