@@ -1102,11 +1102,14 @@ iframe {
 .tab .tablinks:hover {
   background-color: #2d2c3b; /* Slightly lighter hover effect */
   color: #ffffff;
+  border-radius: 4px 4px 0 0;  
+
 }
 
 .tab .tablinks.active {
   background-color: #342d5e; /* Highlighted tab */
   color: white;
+  border-radius: 4px 4px 0 0; /* Round top-left and top-right corners only */
 }
 
 
