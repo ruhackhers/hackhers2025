@@ -614,7 +614,7 @@ list-inline > li {
   font-size: 20px;
 }
 #team h6{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   color: white;
   opacity: 0.9;
@@ -1141,6 +1141,7 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .image-box{
@@ -1168,7 +1169,7 @@ iframe {
 }
 
 .role{
-  font-size: 17px;
+  font-size: 10px;
   font-weight: 400;
   color: white;
   /*opacity: 0.9;*/
