@@ -565,6 +565,8 @@ list-inline > li {
 .section#sponsors{
   margin-top: 50vh;
   text-align: center;
+  margin-right: 40vh;
+  margin-left: 40vh;
 
 }
 
